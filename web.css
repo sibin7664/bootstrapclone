@@ -1,0 +1,123 @@
+body {
+    background-color: #f9f1e8; /* Beige background */
+  }
+  .navbar {
+    background-color: #333; /* Dark gray */
+  }
+  .navbar-brand {
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.8rem;
+  }
+  .star-rating {
+    color: white;
+  }
+  .main-section {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f1e8;
+  }
+  .main-section h1 {
+    font-size: 2.5rem;
+  }
+  .main-section p {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  .btn-primary {
+    background-color: #00aeb3; /* Light teal */
+    border: none;
+  }
+  .device-img {
+    max-width: 100%;
+  }
+  body {
+    background-color: #333; /* Dark background */
+    color: white;
+  }
+  .steps-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .steps-section h2 {
+    margin-bottom: 30px;
+  }
+  .step {
+    position: relative;
+    padding: 20px;
+  }
+  .step-number {
+    width: 40px;
+    height: 40px;
+    background-color: #5cb85c; /* Green */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 1.5rem;
+  }
+  .step-line {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    z-index: -1;
+  }
+  .step:last-child .step-line {
+    display: none; /* Hide line after the last step */
+  }
+  body {
+    background-color: #29b6c6; /* Teal background */
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .themee-section h2 {
+    margin-bottom: 20px;
+  }
+  .themee-box img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .themee-title {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .btn-primary {
+    background-color: #00838f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .btn-primary:hover {
+    background-color: #005662;
+  }
+  .last{
+    background-color: #1c3030;
+    border-radius: 15px;
+  }
+  /* .container img{
+    width: 100px;
+  }
+  */
+  /* @media(max-width:768px){
+    .gifimage{
+
+      display: grid;
+      grid-template-columns: 1fr;
+    
+    }
+  } */
+
+  .gifimage{
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 200px;
+    height: 450px;
+  }
